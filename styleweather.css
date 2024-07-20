@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.weathercontainer {
+    color: white;
+    text-align: center; /* Centering text */
+}
+.city_name { /* New styling added here */
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1rem; /* Adding space below the city name */
+}
+.temp {
+    font-size: 15rem;
+}
+.time_location {
+    font-size: 5rem;
+}
+.condition {
+    margin: 2.5rem;
+    margin-left: 2rem;
+}
+nav {
+    height: 55px;
+}
+.search_area {
+    padding: 1rem 0;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: transparent;
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+}
+nav form button {
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
